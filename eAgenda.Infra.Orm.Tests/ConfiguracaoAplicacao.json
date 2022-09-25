@@ -1,0 +1,11 @@
+{
+  "VersaoSistema": "2.0",
+
+  "ConfiguracaoLogs": {
+    "DiretorioSaida": "D:\\logs\\GeradorTestes"
+  },
+
+  "ConnectionStrings": {
+    "SqlServer": "Data Source=(LOCALDB)\\MSSQLLOCALDB;Initial Catalog=eAgendaOrmTests;Integrated Security=True"
+  }
+}

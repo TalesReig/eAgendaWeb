@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="eAgenda.Dominio.ModuloDespesa.Despesa">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAABAAAEAAABAAAEEAAAEBAAAAAgAAAAAAA=</HashCode>
+      <FileName>ModuloDespesa\Despesa.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Categorias" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="eAgenda.Dominio.ModuloDespesa.Categoria">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAEgAABAAAAAAAAAIgAAAAgAAAAABA=</HashCode>
+      <FileName>ModuloDespesa\Categoria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Despesas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

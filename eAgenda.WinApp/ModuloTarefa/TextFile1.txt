@@ -1,0 +1,41 @@
+﻿
+//json da inserção
+{
+	titulo : "teztes",
+	prioridade: "1", 
+	itensAdicionados : [ "abc", "def" ]
+}
+
+Tarefa t = new Tarefa()
+
+t.titulo = jsonObj.titulo;
+
+foreach(i in itens){
+	item = new ItemTArefa(i);
+	t.AdicionarItem(item);
+}
+
+t.RemoverItems()
+
+serviço.Inmserir(t);
+
+//json da edição
+{
+	id : "asdf-asdf-asdfas-asdfasd",
+	titulo : "teztes",
+	prioridade: "1", 
+	novosItens: [ "ghi" ]
+	itensRemovidos : [ "def" ]
+}
+
+foreach(i in novosItens){
+	item = new ItemTArefa(i);
+	t.AdicionarItem(item);
+}
+
+foreach(i in itensRemovidos){
+	item = new ItemTArefa(i);
+	t.RemoverItem(item);
+}
+
+serviço.Editar(t);
